@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+:root {
+    background: linear-gradient(180deg,#EB0000 0%,#B00000 100%); 
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: (var(--linear-gradiente));
+    color: #ffffff;
+
+}
+
+#calculator {
+    background-color: #120a8f;
+    padding: 48px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.323);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+#input_box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-field label {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.input-field input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+#result {
+    text-align: center;
+}
+
+
+#result {
+    text-align: center;
+}
+
+#total {
+    font-size: 40px;
+}
+
+#btn-calcular {
+    background: #EB0000;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Para todos os campos de entrada */
+input::placeholder {
+    color: white; /* Cor do texto do espaço reservado */
+    font-size: 14px;
+    font-style: italic;
+  }
+
+#btn-limpar {
+
+    background: #EB0000;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+
+}
